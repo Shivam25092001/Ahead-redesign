@@ -6,7 +6,7 @@ import { messageData } from "../constants/Message_data";
 
 const Message = () => {
   return (
-    <section className="md:px-24 px-4 flex justify-center items-center mt-40 message-section">
+    <section className="md:px-24 px-4 flex justify-center items-center mt-40 message-section w-9/12">
       <motion.div
         initial={{ y: 80, opacity: 0 }}
         transition={{
@@ -22,8 +22,7 @@ const Message = () => {
           {messageData[0]}
         </p>
         <h1 className="font-bold text-3xl text-black"> {messageData[1]} </h1>
-        <p className="text-lg font-semibold text-[#535353]">
-          
+        <p className="text-lg font-semibold text-[#535353] message">
           {messageData[2]}
         </p>
         <div className="flex justify-center items-center text-center">

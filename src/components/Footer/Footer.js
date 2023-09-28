@@ -21,7 +21,7 @@ const Footer = () => {
             // className="mt-24  border-t-4 w-[99vw] flex justify-center items-center "
         >
             <UI_Divider />
-            <div className="md:px-40 flex  md:mt-4 mt-6 flex-col w-[80%] justify-center items-center gap-4">
+            <div className="md:px-40 flex md:mt-4 mt-6 flex-col w-[80%] justify-center items-center gap-4">
                 <UI_Image
                     src='/assets/logo.png'
                     width={55}

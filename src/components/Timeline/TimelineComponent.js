@@ -9,7 +9,7 @@ const TimeLineComponent = (props) => {
     const ref = useRef(null)
     const {scrollYProgress} = useScroll({
         target: ref,
-        offset: ["0 1","4 1"]
+        offset: ["0 1","3.7 1"]
     })
     useTransform(scrollYProgress, [0, 0.5, 0],[0, 1, 0]);
   return (

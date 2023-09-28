@@ -18,7 +18,7 @@ const Hero = () => {
             }}
             whileInView={{ y: 0, opacity: 1 }}
             // viewport={{ once: true }}
-            className="bg-[#ECE8FB] w-[95%] md:h-[80vh] rounded-3xl flex flex-col md:flex-row p-6 gap-8 md:gap-0 "
+            className="bg-[#ECE8FB] w-[95vw] md:h-[80vh] rounded-3xl flex flex-col md:flex-row p-6 gap-8 md:gap-0 "
         >
 
             {/* Left Part */}
@@ -70,6 +70,7 @@ const Hero = () => {
 
             
 
+            {/* Right Part */}
             {/* Right Part */}
             <div className='flex flex-1 justify-center items-center relative px-4 py-2'>
                 {/* dotted circle path */}

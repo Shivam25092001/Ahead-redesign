@@ -8,6 +8,8 @@ import About from '@/components/About/About'
 import Footer from '@/components/Footer/Footer'
 import Message from '@/components/Message/Message'
 import TimeLine from '@/components/Timeline/Timeline'
+import Work_Section from '@/components/Worksection/Worksections'
+import Vacancy_Section from '@/components/Vacancy/VacancySections'
 
 
 export default function Home() {
@@ -22,6 +24,8 @@ export default function Home() {
       <StaticSection content = {staticSectionContent[1]} />
       <DescriptionBox />
       <Message />
+      <Work_Section />
+      <Vacancy_Section />
       <Footer />
     </main>
   )
