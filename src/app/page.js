@@ -6,6 +6,8 @@ import Slider from '@/components/Slider/Slider'
 import DescriptionBox from '@/components/Description/Description'
 import About from '@/components/About/About'
 import Footer from '@/components/Footer/Footer'
+import Message from '@/components/Message/Message'
+import TimeLine from '@/components/Timeline/Timeline'
 
 
 export default function Home() {
@@ -16,8 +18,10 @@ export default function Home() {
       <StaticSection content = {staticSectionContent[0]} />
       <Slider />
       <About/>
+      <TimeLine />
       <StaticSection content = {staticSectionContent[1]} />
       <DescriptionBox />
+      <Message />
       <Footer />
     </main>
   )
