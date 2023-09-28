@@ -3,6 +3,7 @@ import React from 'react'
 import { motion } from 'framer-motion';
 import Rating from '../Rating/Rating';
 import UI_Image from '../UI_Image/UI_Image';
+import UI_Button from '../UI_Button/UI_Button';
 
 
 const Hero = () => {
@@ -50,7 +51,7 @@ const Hero = () => {
 
 
                 <div className='flex items-center mt-10'>
-
+                    <UI_Button />
                     <motion.div
                         initial={{ scale: 0, opacity: 0 }}
                         transition={{
@@ -90,7 +91,7 @@ const Hero = () => {
                     />
                 </svg>
                 <motion.div
-                    className="boo-1 absolute top-[10px]"
+                    className="boo-1 absolute top-[10px] z-50"
                     initial={{ offsetDistance: "30%", scale: 1.5 }}
                     animate={{ offsetDistance: "50%", scale: 0.5 }}
                     transition={{ duration: 2, repeat: Infinity, repeatType: "reverse", ease: "easeInOut" }} 
@@ -104,7 +105,7 @@ const Hero = () => {
                 </motion.div>
 
                 <motion.div
-                    className="boo-2 absolute top-[-10px]"
+                    className="boo-2 absolute top-[-10px] z-50"
                     initial={{ offsetDistance: "35%", scale: 0.5 }}
                     animate={{ offsetDistance: "60%", scale: 1.2 }}
                     transition={{ duration: 2, repeat: Infinity, repeatType: "reverse", ease: "easeInOut" }}
@@ -118,7 +119,7 @@ const Hero = () => {
                 </motion.div>
 
                 <motion.div
-                    className="boo-3 absolute top-[-25px]"
+                    className="boo-3 absolute top-[-25px] z-50"
                     initial={{ offsetDistance: "0%", scale: 0.8 }}
                     animate={{ offsetDistance: "100%", scale: 1.2 }}
                     transition={{ duration: 2, repeat: Infinity, repeatType: "reverse", ease: "easeInOut" }}
@@ -135,8 +136,8 @@ const Hero = () => {
             
                 {/* Phone */}
                 <motion.div
-                    whileHover={{ scale: 1.1, rotate: 5 }}
-                    initial={{ scale: 0, opacity: 0 }}
+                    whileHover={{ scale: 1.1, rotate: 5, zIndex: 60}}
+                    initial={{ scale: -0.3, opacity: 0 , rotate: 2, zIndex: 10}}
                     transition={{
                         delay: 0.1,
                         type: "spring",
@@ -145,9 +146,9 @@ const Hero = () => {
                     }}
                     whileInView={{ scale: 1, opacity: 1 }}
                     viewport={{ once: true }}
-                    className='flex justify-center items-center z-10 absolute'
+                    className='flex justify-center items-center z-10 absolute '
                 >
-                    <UI_Image src='/assets/mobile.png' width={300} height={300} alt='mobile' className='md:scale-100 scale-75'/>
+                    <UI_Image src='/assets/mobile.png' width={180} height={180} alt='mobile' className='md:scale-100 scale-75 drop-shadow-xl'/>
                 </motion.div> 
             </div>
         </motion.div>

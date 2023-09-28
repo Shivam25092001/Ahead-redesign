@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import UI_Image from "./UI_Image/UI_Image";
+import UI_Image from "../UI_Image/UI_Image";
 
 const SwirlingPlanets = () => {
   const arr = ["top", "right", "bottom", "left"];

@@ -1,9 +1,9 @@
 "use client";
-
 import { motion } from "framer-motion";
+
 const StaticSection = (props) => {
   return (
-    <section className="md:px-40 px-8 flex md:flex-row flex-col md:mt-40 mt-28 gap-8 md:gap-6  text-center md:text-start">
+    <section className="md:px-40 px-8 flex md:flex-row flex-col md:mt-40 mt-28 gap-8 md:gap-6 text-center md:text-start">
       <motion.div
         initial={{ y: 20, opacity: 0 }}
         transition={{
@@ -12,7 +12,7 @@ const StaticSection = (props) => {
         }}
         whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once: true }}
-        className="flex flex-[0.4]  justify-start items-start gap-6 md:text-3xl text-xl font-bold text-[#212121]"
+        className="flex flex-[0.4] justify-start items-start gap-6 md:text-3xl text-xl font-bold text-[#212121]"
       >
         {props.content.title}{" "}
       </motion.div>{" "}

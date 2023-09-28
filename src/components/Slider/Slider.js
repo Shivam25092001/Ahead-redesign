@@ -33,7 +33,7 @@ const Slider = () => {
           viewport={{ once: true }}
         >
           <UI_Image
-            src="/assets/boo.svg"
+            src="/assets/boo-1.png"
             width={100}
             height={100}
             alt="boo"
