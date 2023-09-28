@@ -38,6 +38,8 @@ const NavBar = () => {
 
         {/* Download button */}
         <motion.button
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
           initial={{ scale: 0.1, opacity: 0.1 }}
           transition={{
               delay: 0.1,

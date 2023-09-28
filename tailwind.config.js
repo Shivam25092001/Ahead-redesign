@@ -15,4 +15,12 @@ module.exports = {
     },
   },
   plugins: [],
+  safelist: [
+    'bg-[#EFEBFF]',
+    'bg-[#D9F2FF]',
+    'bg-[#FFEFD5]',
+    {
+      pattern: /^bg-/
+    }
+  ]
 }
