@@ -11,7 +11,7 @@ const TimeLineComponent = (props) => {
         target: ref,
         offset: ["0 1","3.7 1"]
     })
-    useTransform(scrollYProgress, [0, 0.5, 0],[0, 1, 0]);
+    useTransform(scrollYProgress, [0, 0.5, 0], [0, 1, 0]);
   return (
     <>
         <motion.section ref = {ref} style={{
