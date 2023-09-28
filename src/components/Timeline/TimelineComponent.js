@@ -18,18 +18,17 @@ const TimeLineComponent = (props) => {
             opacity:scrollYProgress
         }}>
         <VerticalTimelineElement
-                        className="vertical-timeline-element--education visible timeline-items"
-                        contentStyle={{ background: '#FAF8FF', borderBottom: 'none ', borderRadius: '15px' }}
-                        iconStyle={{ background: 'rgb(45, 30, 99)', color: '#000' }}
-                        icon={<span className="visible">💜</span>}
-                        iconClassName='flex justify-center items-center '
-                    >
-                        <h3 className="vertical-timeline-element-title text-black font-semibold text-lg visible">
-                            {props.heading}
-                        </h3>
-                        <h4 className="vertical-timeline-element-subtitle text-[#535353] font-medium text-sm visible">
-                            {props.subheading}
-                        </h4>
+            className="vertical-timeline-element--education visible timeline-items"
+            iconStyle={{ background: 'rgb(45, 30, 99)', color: '#000' }}
+            icon={<span className="visible">💜</span>}
+            iconClassName='flex justify-center items-center '
+        >
+            <h3 className="vertical-timeline-element-title text-black font-semibold text-lg visible">
+                {props.heading}
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle text-[#535353] font-medium text-sm visible">
+                {props.subheading}
+            </h4>
         </VerticalTimelineElement>
         </motion.section>
     </>
