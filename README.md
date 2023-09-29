@@ -1,6 +1,7 @@
 
 # Ahead app UI
-Ahead app info, download page
+Ahead app redesigned UI.
+[Visit Page: https://ahead-redesign.vercel.app/](https://ahead-redesign.vercel.app/)
 
 ```href
 https://ahead-redesign.vercel.app/

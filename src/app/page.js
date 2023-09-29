@@ -14,7 +14,7 @@ import Vacancy_Section from '@/components/Vacancy/VacancySections'
 
 export default function Home() {
   return (
-    <main className='flex flex-col justify-center items-center'> 
+    <main className='flex flex-col justify-center items-center main-wrapper'> 
       <NavBar />
       <Hero />
       <StaticSection content = {staticSectionContent[0]} />

@@ -22,6 +22,12 @@ body {
   color: rgb(var(--foreground-rgb));
   background: white;
   overflow-x: hidden;
+  
+}
+
+.main-wrapper{
+  overflow-x: hidden;
+  position: relative;
 }
 
 @layer utilities {
@@ -84,13 +90,13 @@ body {
   );
 }
 
-.boo-2{
+.boo-2 {
   offset-path: path(
     "M 231 432 C 328 432 421.5 346 421.5 235.5 C 421.5 125 344 41 226 41 C 108 41 26 148 28 238 C 36 357 168 406 221 408 C 293 413 384 354 402 257 C 406 177 374 110 310 76"
   );
 }
 
-.boo-3{
+.boo-3 {
   offset-path: path(
     "M 449 426 C 487.4012 323.5391 468 201 407 134 C 347 70 222.2361 35.7466 110 89"
   );
@@ -137,6 +143,7 @@ body {
 @media (min-device-width: 320px) and (max-device-width: 700px) {
   body{
     overflow-x: hidden;
+    width: 100vw;
   }
   .timeline {
       list-style-type: none;
